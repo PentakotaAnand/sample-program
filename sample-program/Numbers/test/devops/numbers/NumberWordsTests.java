@@ -17,7 +17,7 @@ public class NumberWordsTests {
 	public void numberOutOfRangeReturnsError1() {
 		Assert.assertEquals( "Error", "Number out of range", numberWords.toWords( -1 ) ) ;
 	}
-	
+	/* Negative scenario 2 */
 	@Test
 	public void numberOutOfRangeReturnsError2() {
 		Assert.assertEquals( "Error", "Number out of range", numberWords.toWords( 1000 ) ) ;
