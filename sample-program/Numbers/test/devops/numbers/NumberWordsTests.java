@@ -23,7 +23,7 @@ public class NumberWordsTests {
 		Assert.assertEquals( "Error", "Number out of range", numberWords.toWords( 1000 ) ) ;
 	}
 	
-	
+	/* Positive scenario 1 */
 	@Test
 	public void testPositiveScenario1() {
 		Assert.assertEquals("Error","Eighteen", numberWords.toWords( 18 ) ) ;
