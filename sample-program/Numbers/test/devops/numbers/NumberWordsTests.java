@@ -28,7 +28,7 @@ public class NumberWordsTests {
 	public void testPositiveScenario1() {
 		Assert.assertEquals("Error","Eighteen", numberWords.toWords( 18 ) ) ;
 	}
-	
+	/* Positive scenario 2 */
 	@Test
 	public void testPositiveScenario2() {
 		Assert.assertEquals( "Error", "Forty", numberWords.toWords( 40) ) ;
