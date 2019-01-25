@@ -8,6 +8,6 @@ pipeline {
     }
   }
   environment {
-    stage = 'build'
+    stage = 'test'
   }
 }
