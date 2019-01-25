@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Build') {
+    stage('Build and Test') {
       steps {
-        echo '"Checkout"'
+        bat(script: 'bat \'ant build\'', returnStatus: true)
       }
     }
   }
